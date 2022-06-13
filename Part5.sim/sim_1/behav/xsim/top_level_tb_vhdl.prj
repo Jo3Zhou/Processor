@@ -1,0 +1,20 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Part5.srcs/sources_1/imports/project4_vhd/DigEng.vhd" \
+"../../../../Part5.srcs/sources_1/imports/project4_vhd/ALU.vhd" \
+"../../../../Part5.srcs/sources_1/imports/project4_vhd/ir.vhd" \
+"../../../../Part5.srcs/sources_1/imports/project4_vhd/control_signals.vhd" \
+"../../../../Part5.srcs/sources_1/imports/project4_vhd/sequencer.vhd" \
+"../../../../Part5.srcs/sources_1/imports/project4_vhd/control_logic.vhd" \
+"../../../../Part5.srcs/sources_1/imports/project4_vhd/reg.vhd" \
+"../../../../Part5.srcs/sources_1/imports/project4_vhd/top_rb.vhd" \
+"../../../../Part5.srcs/sources_1/imports/project4_vhd/datapath.vhd" \
+"../../../../Part5.srcs/sources_1/new/dual_port_mem.vhd" \
+"../../../../Part5.srcs/sources_1/new/mmu.vhd" \
+"../../../../Part5.srcs/sources_1/new/out_reg.vhd" \
+"../../../../Part5.srcs/sources_1/imports/project4_vhd/top.vhd" \
+"../../../../Part5.srcs/sources_1/new/top_level.vhd" \
+"../../../../Part5.srcs/sim_1/new/top_level_tb.vhd" \
+
+# Do not sort compile order
+nosort

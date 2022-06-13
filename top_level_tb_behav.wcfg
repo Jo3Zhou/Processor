@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_level_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="digeng" />
+            <top_module name="top_level_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2951313300fs"></ZoomStartTime>
+      <ZoomEndTime time="2960713301fs"></ZoomEndTime>
+      <Cursor1Time time="3042313000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="163"></NameColumnWidth>
+      <ValueColumnWidth column_width="242"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/top_level_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/output" type="array">
+      <obj_property name="ElementShortName">output[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/ins" type="array">
+      <obj_property name="ElementShortName">ins[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ins[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/memory/ins_add" type="array">
+      <obj_property name="ElementShortName">ins_add[6:0]</obj_property>
+      <obj_property name="ObjectShortName">ins_add[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/ctrl_datapath/datapath/register_bank/\reg_bank(1)\/one_reg/output" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">output[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">register1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/ctrl_datapath/datapath/register_bank/\reg_bank(2)\/one_reg/output" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">output[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output[15:0]</obj_property>
+      <obj_property name="label">register2</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/ctrl_datapath/datapath/register_bank/\reg_bank(3)\/one_reg/output" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">output[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output[15:0]</obj_property>
+      <obj_property name="label">register3</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/ctrl_datapath/datapath/register_bank/\reg_bank(7)\/one_reg/output" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">output[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output[15:0]</obj_property>
+      <obj_property name="label">register7</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/ctrl_datapath/datapath/register_bank/\reg_bank(30)\/one_reg/output" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">output[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output[15:0]</obj_property>
+      <obj_property name="label">register30</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/ctrl_datapath/datapath/register_bank/\reg_bank(31)\/one_reg/output" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">output[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output[15:0]</obj_property>
+      <obj_property name="label">register31</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group102" type="group">
+      <obj_property name="label">other registers</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/top_level_tb/uut/ctrl_datapath/datapath/register_bank/\reg_bank(4)\/one_reg/output" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">output[15:0]</obj_property>
+         <obj_property name="ObjectShortName">output[15:0]</obj_property>
+         <obj_property name="label">register4</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/ctrl_datapath/datapath/register_bank/\reg_bank(6)\/one_reg/output" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">output[15:0]</obj_property>
+         <obj_property name="ObjectShortName">output[15:0]</obj_property>
+         <obj_property name="label">register6</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/ctrl_datapath/datapath/register_bank/\reg_bank(5)\/one_reg/output" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">output[15:0]</obj_property>
+         <obj_property name="ObjectShortName">output[15:0]</obj_property>
+         <obj_property name="label">register5</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/ctrl_datapath/datapath/register_bank/\reg_bank(8)\/one_reg/output" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">output[15:0]</obj_property>
+         <obj_property name="ObjectShortName">output[15:0]</obj_property>
+         <obj_property name="label">register8</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/ctrl_datapath/datapath/register_bank/\reg_bank(9)\/one_reg/output" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">output[15:0]</obj_property>
+         <obj_property name="ObjectShortName">output[15:0]</obj_property>
+         <obj_property name="label">register9</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/ctrl_datapath/datapath/register_bank/\reg_bank(10)\/one_reg/output" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">output[15:0]</obj_property>
+         <obj_property name="ObjectShortName">output[15:0]</obj_property>
+         <obj_property name="label">register10</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/ctrl_datapath/datapath/register_bank/\reg_bank(11)\/one_reg/output" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">output[15:0]</obj_property>
+         <obj_property name="ObjectShortName">output[15:0]</obj_property>
+         <obj_property name="label">register11</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/ctrl_datapath/datapath/register_bank/\reg_bank(12)\/one_reg/output" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">output[15:0]</obj_property>
+         <obj_property name="ObjectShortName">output[15:0]</obj_property>
+         <obj_property name="label">register12</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/ctrl_datapath/datapath/register_bank/\reg_bank(15)\/one_reg/output" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">output[15:0]</obj_property>
+         <obj_property name="ObjectShortName">output[15:0]</obj_property>
+         <obj_property name="label">register15</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/ctrl_datapath/datapath/register_bank/\reg_bank(29)\/one_reg/output" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">output[15:0]</obj_property>
+         <obj_property name="ObjectShortName">output[15:0]</obj_property>
+         <obj_property name="label">register29</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider106">
+      <obj_property name="label">mmu input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/mmu/mia" type="array">
+      <obj_property name="ElementShortName">mia[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mia[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/mmu/mda" type="array">
+      <obj_property name="ElementShortName">mda[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mda[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/mmu/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/mmu/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/mmu/oen" type="logic">
+      <obj_property name="ElementShortName">oen</obj_property>
+      <obj_property name="ObjectShortName">oen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/mmu/data_r" type="array">
+      <obj_property name="ElementShortName">data_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_r[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider110">
+      <obj_property name="label">mmu output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/mmu/ins_add" type="array">
+      <obj_property name="ElementShortName">ins_add[6:0]</obj_property>
+      <obj_property name="ObjectShortName">ins_add[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/mmu/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/mmu/data_add" type="array">
+      <obj_property name="ElementShortName">data_add[6:0]</obj_property>
+      <obj_property name="ObjectShortName">data_add[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/mmu/data_w" type="array">
+      <obj_property name="ElementShortName">data_w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_w[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/mmu/data_out_reg" type="array">
+      <obj_property name="ElementShortName">data_out_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_reg[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/mmu/wen" type="logic">
+      <obj_property name="ElementShortName">wen</obj_property>
+      <obj_property name="ObjectShortName">wen</obj_property>
+   </wvobject>
+</wave_config>
