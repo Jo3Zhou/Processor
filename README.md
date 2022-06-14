@@ -7,3 +7,7 @@ A processor based on VHDL with components followed below:
 5. Ouput register
 
 P.S. A processor with lots of bugs from assignment on course xD
+
+
+part of simulation:
+![image](https://user-images.githubusercontent.com/102744628/173555533-5d009fdd-2ca0-471e-910b-ee8d915f8ac1.png)
