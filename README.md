@@ -6,7 +6,7 @@ A single-cycle processor based on VHDL with components followed below:
 4. Dual-port ROM
 5. Ouput register
 
-P.S. A processor with lots of bugs from assignment on course xD
+P.S. A processor with lots of bugs xD
 
 The instruction set：
 ![image](https://user-images.githubusercontent.com/102744628/173556058-1b35660d-5966-4856-8872-0a65f017eb5a.png)
